@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200">
+  <defs>
+    <radialGradient id="abyssBg" cx="400" cy="400" r="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#240005"/>
+      <stop offset="0.5" stop-color="#090002"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="crimsonAura" cx="400" cy="340" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c4001c" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#52000b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kaguneGrad" x1="400" y1="300" x2="400" y2="1150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff0026"/>
+      <stop offset="0.45" stop-color="#8a0014"/>
+      <stop offset="1" stop-color="#1a0004"/>
+    </linearGradient>
+    <linearGradient id="cloakGrad" x1="400" y1="320" x2="400" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0e0204"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="kakuganGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2a40" stop-opacity="1"/>
+      <stop offset="0.4" stop-color="#ff0022" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff0022" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairGrad" x1="300" y1="120" x2="500" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e8e2e4"/>
+      <stop offset="0.6" stop-color="#a89ea2"/>
+      <stop offset="1" stop-color="#362c30"/>
+    </linearGradient>
+    <linearGradient id="fogBottom" x1="0" y1="880" x2="0" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.96"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1200" fill="url(#abyssBg)"/>
+  <circle cx="400" cy="340" r="300" fill="url(#crimsonAura)"/>
+
+  <!-- Kagune tentacles emerging from behind -->
+  <path d="M350 560 C 210 470, 120 330, 80 180 C 130 290, 220 400, 360 510 Z" fill="url(#kaguneGrad)" opacity="0.82"/>
+  <path d="M450 560 C 590 470, 680 330, 720 180 C 670 290, 580 400, 440 510 Z" fill="url(#kaguneGrad)" opacity="0.82"/>
+  <path d="M330 620 C 160 610, 80 510, 35 380 C 100 470, 190 540, 335 585 Z" fill="url(#kaguneGrad)" opacity="0.72"/>
+  <path d="M470 620 C 640 610, 720 510, 765 380 C 700 470, 610 540, 465 585 Z" fill="url(#kaguneGrad)" opacity="0.72"/>
+  <path d="M345 680 C 200 720, 110 810, 75 940 C 145 835, 225 760, 350 720 Z" fill="url(#kaguneGrad)" opacity="0.58"/>
+  <path d="M455 680 C 600 720, 690 810, 725 940 C 655 835, 575 760, 450 720 Z" fill="url(#kaguneGrad)" opacity="0.58"/>
+
+  <!-- High-collar dark coat / silhouette -->
+  <path d="M400 350 C 285 350 230 440 210 590 L 160 1120 L 640 1120 L 590 590 C 570 440 515 350 400 350 Z"
+        fill="url(#cloakGrad)" stroke="#52000c" stroke-width="2.5"/>
+  <!-- Sharp collar -->
+  <path d="M275 430 L 315 535 L 400 500 L 485 535 L 525 430 L 495 365 L 400 410 L 305 365 Z"
+        fill="#050002" stroke="#7a0014" stroke-width="2"/>
+
+  <!-- Head & Jagged White Hair -->
+  <path d="M400 135
+           C 320 135 270 195 272 280
+           C 275 350 325 420 400 425
+           C 475 420 525 350 528 280
+           C 530 195 480 135 400 135 Z"
+        fill="#0c0406" stroke="#3d000a" stroke-width="2"/>
+
+  <!-- White spiky hair bangs -->
+  <path d="M272 255 L 258 205 L 302 215 L 298 155 L 348 182 L 372 122 L 404 168 L 442 124 L 462 180 L 512 162 L 502 216 L 542 210 L 526 262
+           L 495 230 L 462 275 L 442 232 L 412 288 L 385 238 L 352 282 L 330 232 L 295 268 Z"
+        fill="url(#hairGrad)" opacity="0.9"/>
+
+  <!-- Leather Ghoul Mask lower face -->
+  <path d="M286 300 C 295 375 342 422 400 426 C 458 422 505 375 514 300 C 475 316 435 318 400 315 C 365 318 325 316 286 300 Z"
+        fill="#070203" stroke="#42000b" stroke-width="2"/>
+  <!-- Mask zipper / teeth grin -->
+  <path d="M335 366 Q 400 392 465 366" fill="none" stroke="#c8c0c4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M348 362 L 348 378 M 365 367 L 365 384 M 382 371 L 382 388 M 400 372 L 400 390 M 418 371 L 418 388 M 435 367 L 435 384 M 452 362 L 452 378"
+        stroke="#0a0204" stroke-width="3"/>
+
+  <!-- Eyepatch over right eye (viewer's left) -->
+  <path d="M300 265 L 382 260 L 376 312 L 304 308 Z" fill="#040102" stroke="#2d0008" stroke-width="2"/>
+  <line x1="278" y1="242" x2="395" y2="338" stroke="#180508" stroke-width="7"/>
+
+  <!-- Glowing Red Kakugan (left eye / viewer's right) -->
+  <ellipse cx="445" cy="285" rx="46" ry="26" fill="url(#kakuganGlow)"/>
+  <path d="M412 285 Q 445 268 478 285 Q 445 302 412 285 Z" fill="#050001"/>
+  <circle cx="445" cy="285" r="10" fill="#ff0022"/>
+  <circle cx="445" cy="285" r="4.5" fill="#ffd0d6"/>
+  <!-- Red veins around kakugan -->
+  <path d="M475 282 L 494 272 M 474 289 L 492 296 M 415 284 L 400 276" stroke="#ff0026" stroke-width="1.5" opacity="0.7"/>
+
+  <rect x="0" y="880" width="800" height="320" fill="url(#fogBottom)"/>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "Soralab",
+  "description": "Soralab — vérifie en un clic si un numéro WhatsApp est banni.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

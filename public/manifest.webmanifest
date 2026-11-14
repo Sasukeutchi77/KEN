@@ -1,0 +1,18 @@
+{
+  "name": "check ban ᤢᩧ𝑲𝑬𝑵 ༄𝘿᭄⋆ 𝑲𝑨𝑵𝑬𝑲𝑰⋆𒌋꯭⵿",
+  "short_name": "KEN KANEKI",
+  "description": "Vérifie si un numéro WhatsApp est banni.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050001",
+  "theme_color": "#050001",
+  "icons": [
+    {
+      "src": "/assets/empire-crest.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
