@@ -1,4 +1,3 @@
-import { LINK_WHATSAPP } from '../constants/themes';
 import type { VerdictState } from '../types';
 
 interface VerdictDialogsProps {
@@ -100,18 +99,9 @@ export function VerdictDialogs({ verdict, banMsg, okMsg, onClose }: VerdictDialo
           <div className="dlg-sep" />
           <div className="dlg-acts-ban">
             <div className="dlg-acts-spacer" />
-            <button type="button" className="dbtn" onClick={onClose}>
+            <button type="button" className="dbtn c-red" onClick={onClose}>
               Fermer
             </button>
-            <div className="dbtn-vsep" />
-            <a
-              className="dbtn c-red"
-              href={LINK_WHATSAPP}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Chaîne
-            </a>
           </div>
         </div>
       </div>

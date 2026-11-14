@@ -1,6 +1,5 @@
 import type { AppConfig, ThemeId } from '../types';
 
-export const LINK_WHATSAPP = 'https://whatsapp.com/channel/0029VbDIzIRCnA7wOIaJea0z';
 export const CHECK_API_URL = 'https://inconnu-check-ban-api.onrender.com/check';
 export const DEFAULT_IMAGE = '/assets/kaneki-placeholder.gif';
 export const DEFAULT_BG_IMAGE = '/assets/aistudio/67d1052022daff0acc1bd11adbb36e3b_a1ea3bf7.jpg';

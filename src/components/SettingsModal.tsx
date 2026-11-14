@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { LINK_WHATSAPP, THEMES, THEME_ORDER } from '../constants/themes';
+import { THEMES, THEME_ORDER } from '../constants/themes';
 import type { AppConfig, ThemeId } from '../types';
 
 interface SettingsModalProps {
@@ -286,24 +286,6 @@ export function SettingsModal({
                 id="togBg"
                 onClick={() => setBg((prev) => !prev)}
               />
-            </div>
-          </div>
-
-          {/* Lien chaîne WhatsApp */}
-          <div className="sg">
-            <label>Liens</label>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-              <a
-                className="social-btn wa-btn"
-                href={LINK_WHATSAPP}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="#25d366">
-                  <path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.5 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1 2.9 1.2 3.1c.2.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3zM12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.3L2 22l4.9-1.3C8.4 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.8 0-3.5-.5-4.9-1.4l-.3-.2-3.4.9.9-3.3-.2-.3C3 14.4 2.5 13.2 2.5 12 2.5 7 7 2.5 12 2.5s9.5 4.5 9.5 9.5-4.5 9.2-9.5 9.2z" />
-                </svg>
-                WhatsApp Channel
-              </a>
             </div>
           </div>
 
